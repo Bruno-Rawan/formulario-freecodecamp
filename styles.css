@@ -1,0 +1,111 @@
+body {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-image: url('img/img-fundo.jpg');
+    /* Adicione a URL da imagem */
+    background-size: cover;
+    /* Faz a imagem cobrir todo o espaço disponível */
+    background-repeat: no-repeat;
+    /* impede a repetição da imagem */
+    background-position: center;
+    /* Garante que o body tenha a altura total da viewport */
+    background-attachment: fixed;
+    /* Cria a ilusão de que o conteúdo da página está passando por cima de uma imagem estacionária. */
+    height: 100vh;
+    /* Remove a margem padrão do body */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* Inclui padding e borda no tamanho total do elemento */
+}
+
+#survey-form {
+    background-color: none;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+#name-label {
+    text-align: center;
+    margin-left: 0;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#name,
+#email {
+    font-size: 17px;
+    height: 5vh;
+    width: 400px;
+    border: white;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#dropdown {
+    background-color: white;
+    font-size: 15px;
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+textarea {
+    width: 300px;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: rgb(116, 116, 131);
+    font-size: 25px;
+    border-color: none;
+    border-radius: 5px;
+
+}
+
+#email {
+    margin-left: 10px;
+}
+
+#number {
+    font-weight: 600;
+    text-align: center;
+    width: 5vw;
+    height: 5vh;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    }
+
+#number:hover {
+    background-color: rgb(116, 116, 131);
+}
